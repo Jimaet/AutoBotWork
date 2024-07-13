@@ -9,19 +9,19 @@ import torch
 import torch.nn as nn
 from sklearn.feature_extraction.text import CountVectorizer
 import pandas as pd
-bot = telebot.TeleBot('7072831138:AAGuz1doqRyXWKnrWRw9H6su7_S5ipkQKT8')
+bot = telebot.TeleBot('')
 
 # Словарь для отслеживания состояния пользователей
 user_states = {}
 
 # Настройки почтового сервера
-SMTP_SERVER = 'smtp.yandex.ru'
-SMTP_PORT = 465
-SMTP_USER = 'cherch00jimaet@yandex.ru'
-SMTP_PASSWORD = 'zpvmobsttxidivfl'
+SMTP_SERVER = ''
+SMTP_PORT = 
+SMTP_USER = ''
+SMTP_PASSWORD = ''
 
 # Email получателя
-RECIPIENT_EMAIL = 'cherch00@yandex.ru'
+RECIPIENT_EMAIL = ''
 
 # Определение простой модели (тот же класс SimpleNN)
 class SimpleNN(nn.Module):
